@@ -16,5 +16,5 @@ int ternarySearch(int x, int a[], int n) {
             r = rmid - 1;
         }
     }
-    return l;
+    return -1; //not found
 }
