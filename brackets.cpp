@@ -22,6 +22,7 @@ int main() {
     std::vector<std::string> ans;
     int n;
     std::cin >> n;
+    n = n / 2;
     generateParenthesis(n, 0, 0, "", ans);
     for (auto s : ans)
     {
